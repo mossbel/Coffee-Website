@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+main {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+    background-color: #ededed;
+}
+
+.to {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0;
+}
+
+
+.form {
+    border: 1px solid #80808000;
+    grid-column: 6/9;
+    grid-row: 3;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px 0px grey;
+    background-color: white;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+i.fab.fa-app-store-ios {
+    display: block;
+    margin-bottom: 0px;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-left: -150px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    display: block;
+    font-weight: lighter;
+}
+
+input {
+    display: block;
+    border-bottom: 2px solid #00BCD4;
+    margin-top: 6px;
+    margin-bottom: 50px;
+    outline-style: none;
+}
+
+    input[type="text"] {
+        padding: -10px;
+        width: 170%;
+    }
+
+    input[type="password"] {
+        padding: -10px;
+        width: 170%;
+    }
+
+
+button#submit {
+    padding: 7px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    bottom: 60px;
+    left: 105px;
+    cursor: pointer;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+
+    button#submit:hover {
+        background: linear-gradient(to right, #fc466b, #3f5efb);
+    }
+
+
+
+a#ql {
+    padding: 7px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    bottom: 15px;
+    left: 105px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-color: rgb(185, 185, 185);
+    font-size: 14px;
+}
+
+    a#ql:hover {
+        text-decoration: none;
+        color: black;
+    }

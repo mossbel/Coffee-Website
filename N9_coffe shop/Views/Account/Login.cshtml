@@ -1,0 +1,28 @@
+﻿@using N9_coffe_shop.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Đăng nhập";
+}
+<link rel="stylesheet" type="text/css" href="~/Asset/css/login.css">
+
+<main>
+    <div class="container">
+        <div class="to" style="padding-bottom: 30px; padding-top: 30px;">
+            <div class="form">
+                <h2>Đăng nhập</h2>
+                <i class="fab fa-app-store-ios"></i>
+                <label>Tài khoản</label>
+                <input type="text" name="tk" placeholder="Nhập tài khoản">
+                <label>Mật khẩu</label>
+                <input type="password" name="mk" placeholder="Nhập mật khẩu">
+                <button type="submit" id="submit" style="cursor:pointer">Đăng nhập</button>
+                <button type="button" id="dk" style="cursor:pointer">Đăng kí</button>
+                <button type="button" id="qmk" style="cursor:pointer">Quên mật khẩu</button>
+            </div>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

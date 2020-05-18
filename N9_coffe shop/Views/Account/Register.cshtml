@@ -1,0 +1,32 @@
+﻿@model N9_coffe_shop.Models.RegisterViewModel
+@{
+    ViewBag.Title = "Đăng ký";
+}
+
+<link href="~/Asset/css/dangki.css" rel="stylesheet" />
+
+<main>
+    <div class="to">
+        <div class="form">
+            <h2>Đăng kí</h2>
+            <form name="form1" onsubmit="return matchpass()">
+                <i class="fab fa-app-store-ios"></i>
+                <label style="margin-left: -40px;">Email hoặc số điện thoại</label>
+                <input type="text" name="tk" placeholder="Nhập số di động hoặc email" style="margin-left: -40px">
+                <label style="margin-left: -40px;">Mật khẩu</label>
+                <input type="password" name="mk" placeholder="Nhập mật khẩu" style="margin-left: -40px">
+                <label style="margin-left: -40px;">Xác nhận mật khẩu</label>
+                <input type="password" name="xnmk" placeholder="Nhập lại mật khẩu" style="margin-left: -40px">
+                <label style="margin-left: -40px;">Tên người dùng</label>
+                <input type="text" name="name" placeholder="Nhập tên người dùng" style="margin-left: -40px">
+                <button type="submit" id="submit" style="cursor:pointer">Đăng kí</button>
+
+                <a href="login.html" id="ql" style="cursor:pointer">Quay lại trang đăng nhập</a>
+            </form>
+        </div>
+    </div>
+</main>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

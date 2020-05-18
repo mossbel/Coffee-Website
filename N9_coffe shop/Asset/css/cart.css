@@ -1,0 +1,80 @@
+body{
+    background: rgb(245, 245, 245);
+}
+
+.inform-zone{
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.input-group{
+    margin: 10px 0;
+}
+
+.cart-note{
+    padding: 5px 20px;
+    margin: 10px 0;
+    background-color: yellow;
+    color: rgb(146, 75, 75);
+    font-style: italic;
+    border-radius: 5px;
+}
+
+.pay-option-radio{
+    width: 1rem;
+    height: 1.25rem;
+}
+
+.pay-option{
+    padding: 5px;
+    background-color: grey;
+    margin-top: 1px;
+}
+
+.discount-btn{
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    background-color: #d41011;
+    border-color: #d41011 ;
+}
+
+.order-btn{
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.product-quantity{
+    padding: 2px 10px;
+    background-color: #bc925f;
+    color: white;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.product-name{
+    padding: 2px 5px;
+    color:#bc925f ;
+    font-weight: 500;
+}
+
+.product-prices{
+    padding: 2px 5px;
+    color:#bc925f ;
+    font-weight: 500;
+}
+
+.product-cancel{
+    padding: 2px 10px;
+    background-color:white;
+    border-radius: 50%;
+    color: black;
+    border-style: none;
+    border: 1px solid grey;
+}
+
+.add-more{
+    font-size:12px;
+    
+}
